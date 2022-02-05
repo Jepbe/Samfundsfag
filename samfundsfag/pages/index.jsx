@@ -9,7 +9,7 @@ export default function Home() {
     <Navbar />
   
       {/* Hello World! */}
-      <div>
+      <div className={style.videoContainer}>
         <video className={style.video} height="100%" width="100%" autoPlay muted loop> 
           <source src='http://localhost:3000/assets/NewArmaVideo.mp4' type='video/mp4' />
         </video>
