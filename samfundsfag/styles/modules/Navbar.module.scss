@@ -1,3 +1,68 @@
 .Navbar {
+    width: 100%;
+    height: 50px;
+    // background-color: grey;
+    display: flex;
+    justify-content: space-between;   
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.burgerMenu {
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
     color: black;
+    cursor: pointer;
+}
+
+.burgerMenu:active {
+    color: rgb(32, 32, 32);
+}
+
+
+
+.sideBarInner {
+    height: 100vh;
+    width: 25rem;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+
+    button {
+        border: none;
+        background-color: transparent;
+        font-size: 30px;
+        cursor: pointer;
+        
+    }
+}
+
+.overlay {
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 70%;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+.sideaBarItem {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
 }
