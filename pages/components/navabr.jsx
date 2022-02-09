@@ -14,7 +14,8 @@ export default function Navbar() {
         <>
              {/* Top nav bar */}
         <nav className={style.Navbar}>
-            <h1>LOGO</h1>
+            {/* <h1>LOGO</h1> */}
+            <img src="/assets/DRONER_I_KRIG_logo.png" alt="Droner i krig logo" className={style.Logo} />
             <button className={style.burgerMenu} onClick={handleSidebar}><HiMenuAlt3 /></button>
         </nav>
 
