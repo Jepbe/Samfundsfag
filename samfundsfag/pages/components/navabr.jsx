@@ -28,21 +28,21 @@ export default function Navbar() {
                 <li onClick={handleSidebar}>
                     <NextLink href="/">
                         <a className={style.sideaBarItem}>
-                            Test
+                            Home
+                        </a>
+                    </NextLink>
+                </li>
+                <li onClick={handleSidebar}>
+                    <NextLink href="../Page1">
+                        <a className={style.sideaBarItem2}>
+                            Droners formål
                         </a>
                     </NextLink>
                 </li>
                 <li onClick={handleSidebar}>
                     <NextLink href="/">
                         <a className={style.sideaBarItem2}>
-                            Test
-                        </a>
-                    </NextLink>
-                </li>
-                <li onClick={handleSidebar}>
-                    <NextLink href="/">
-                        <a className={style.sideaBarItem2}>
-                            Test
+                            Page 2
                         </a>
                     </NextLink>
                 </li>

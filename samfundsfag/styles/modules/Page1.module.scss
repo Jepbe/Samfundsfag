@@ -1,0 +1,103 @@
+.videoContainer {
+    text-align: center;
+}
+ 
+ .video {
+     width: 100%;
+     margin-top: -75px;
+     overflow-y: hidden;
+ }
+
+ @media screen and (max-width: 1700px){
+    .video {
+        width: 110%;
+    }
+ }
+
+ @media screen and (max-width: 1555px){
+    .video {
+        width: 120%;
+    }
+ }
+
+ @media screen and (max-width: 1438px){
+    .video {
+        width: 150%;
+        margin-right: 500px;
+    }
+ }
+
+ @media screen and (max-width: 1438px){
+    .video {
+        width: 150%;
+        margin-right: 1000px;
+    }
+ }
+
+ @media screen and (max-width: 1142px){
+    .video {
+        width: 180%;
+    }
+ }
+
+ @media screen and (max-width: 958px){
+    .video {
+        width: 230%;
+    }
+ }
+
+ @media screen and (max-width: 754px){
+    .video {
+        width: 280%;
+    }
+ }
+
+ @media screen and (max-width: 615px){
+    .video {
+        width: 340%;
+    }
+ }
+
+ @media screen and (max-width: 500px){
+    .video {
+        width: 400%;
+    }
+ }
+
+ 
+ @media screen and (max-width: 426px){
+    .video {
+        width: 450%;
+    }
+ }
+
+
+
+//  main part
+
+.mainOuter {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 57%;
+    height: 150vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.mainList li {
+list-style-type: normal;
+float: center;
+text-align: left;
+}
