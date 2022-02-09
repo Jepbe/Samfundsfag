@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hello World! */}
       <div className={style.videoContainer}>
         <video className={style.video} height="100%" width="100%" autoPlay muted loop> 
-          <source src='http://localhost:3000/assets/NewArmaVideo.mp4' type='video/mp4' />
+          <source src='/assets/NewArmaVideo.mp4' type='video/mp4' />
         </video>
       </div>
     </div>
