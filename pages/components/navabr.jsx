@@ -48,30 +48,30 @@ export default function Navbar() {
                     </NextLink>
                 </li>
                 <li onClick={handleSidebar}>
-                    <NextLink href="/">
+                    <NextLink href="/page3">
                         <a className={style.sideaBarItem2}>
-                            Hvordan kæmper droner?
+                        Er det i orden at bruge droner? 
                         </a>
                     </NextLink>
                 </li>
                 <li onClick={handleSidebar}>
-                    <NextLink href="/">
+                    <NextLink href="/page4">
                         <a className={style.sideaBarItem2}>
-                        Hvor skal dronerne bruges?
+                        Hvor mange lande bruger droner?
                         </a>
                     </NextLink>
                 </li>
                 <li onClick={handleSidebar}>
-                    <NextLink href="/">
+                    <NextLink href="/page5">
                         <a className={style.sideaBarItem2}>
-                            Test
+                           Hvordan kæmper droner?
                         </a>
                     </NextLink>
                 </li>
                 <li onClick={handleSidebar}>
-                    <NextLink href="/">
+                    <NextLink href="/page6">
                         <a className={style.sideaBarItem2}>
-                            Test
+                        Hvad bruger militære droner til?
                         </a>
                     </NextLink>
                 </li>

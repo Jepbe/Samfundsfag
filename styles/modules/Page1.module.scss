@@ -81,6 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .main {
@@ -94,10 +95,33 @@
     justify-content: center;
     padding: 2rem;
     text-align: center;
+    box-sizing: border-box;
+
+    div {
+        overflow: hidden;
+        text-align: left;
+         img {
+             height: 40%;
+         }
+    }
 }
 
 .mainList li {
 list-style-type: normal;
 float: center;
 text-align: left;
+}
+
+.imgLabel {
+    float: left;
+    font-style: italic;
+}
+
+.main li, .main p {
+    text-align: left;
+    font-size: large;
+}
+
+.siteHeader {
+    text-align: center !important;
 }
