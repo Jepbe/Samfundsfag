@@ -17,7 +17,7 @@ export default function Page1() {
                         <h1>Hvilke typer droner findes der?</h1>
                         <h4>I Danmark har vi ikke Unmanned combat aerial vehicle (UCAV)</h4>
                     </div>
-                    <img src="http://localhost:3000/assets/UCAV.jpeg" alt="" /><br />
+                   <img src="http://localhost:3000/assets/UCAV.jpeg" alt="" /><br />
                        <label className={style.imgLabel}>Foto af Unmanned combat aerial vehicle</label>
                         <br />
                         <h3>Det danske forsvar har ikke sine egne militære droner</h3>

@@ -70,3 +70,38 @@
         width: 450%;
     }
  }
+
+ .main {
+    z-index: 1;
+    top: 43vh;
+    position: absolute;
+    color: #FFFF;
+    letter-spacing: 5px;
+    
+        button {
+            width: 7rem;
+            margin: 7px;
+            height: 2rem;
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            font-weight: 600;
+            transition: .15s ease-in-out;
+
+        }
+
+        button:hover {
+            background-color: #FFFF;
+            color: black;
+            cursor: pointer;
+            transition: .15s ease-in-out;
+        }
+}
+
+ .Hello {
+     display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }

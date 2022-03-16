@@ -36,6 +36,8 @@
     right: 0;
     top: 0;
     background-color: white;
+    text-align: left;
+    float: left;
 
     button {
         border: none;
@@ -49,6 +51,7 @@
 .overlay {
     height: 100vh;
     top: 0;
+    left: 0;
     width: 100%;
     background-color: black;
     position: absolute;
