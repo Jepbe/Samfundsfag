@@ -34,16 +34,16 @@ export default function Navbar() {
                     </NextLink>
                 </li>
                 <li onClick={handleSidebar}>
-                    <NextLink href="../Page1">
+                    <NextLink href="../page1">
                         <a className={style.sideaBarItem2}>
                             Droners formål
                         </a>
                     </NextLink>
                 </li>
                 <li onClick={handleSidebar}>
-                    <NextLink href="/">
+                    <NextLink href="/page2">
                         <a className={style.sideaBarItem2}>
-                            Hvor mange lande bruger droner? 
+                            Hvilke typer droner findes der?  
                         </a>
                     </NextLink>
                 </li>
