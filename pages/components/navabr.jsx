@@ -1,8 +1,8 @@
-import NextLink from 'next/link'
+import NextLink from 'next/link';
 import style from '../../styles/modules/Navbar.module.scss';
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { useState } from 'react';
-
+import Image from 'next/image';
 
 export default function Navbar() {
     const [sidebar, setSidebar] = useState(false)
@@ -15,7 +15,13 @@ export default function Navbar() {
              {/* Top nav bar */}
         <nav className={style.Navbar}>
             {/* <h1>LOGO</h1> */}
-            <img src="/assets/DRONER_I_KRIG_logo.png" alt="Droner i krig logo" className={style.Logo} />
+            <Image
+                src="/assets/DRONER_I_KRIG_logo.png"
+                 alt="Droner i krig logo" 
+                className={style.Logo}
+                height="100"
+                width="165"
+            />
             <button className={style.burgerMenu} onClick={handleSidebar}><HiMenuAlt3 /></button>
         </nav>
 
