@@ -1,5 +1,5 @@
-import Navbar from "./components/navabr";
-import style from './../styles/modules/page1.module.scss'
+import Navbar from "/components/navabr";
+import style from '/../styles/modules/page1.module.scss'
 import Image from 'next/image';
 
 export default function Page1() {
