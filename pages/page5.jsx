@@ -21,8 +21,7 @@ export default function Page1() {
                         De fleste droner bruger bomber
                         </p>
                             <iframe 
-                                src="https://www.youtube.com/watch?v=fWPkZPBQrrU" 
-                                frameborder="0" allowfullscreen
+                                src="https://www.youtube.com/watch?v=fWPkZPBQrrU"
                             ></iframe>
                         </div>
                 </div>
