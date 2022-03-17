@@ -1,6 +1,6 @@
 import Navbar from "./components/navabr";
 import style from './../styles/modules/page1.module.scss'
-
+import Image from 'next/image';
 
 export default function Page1() {
     return(
@@ -22,7 +22,11 @@ export default function Page1() {
                         </p>
                         <br /><br /><br /><br /><br /><br />
                             <h3>Hvordan har mængden af &quot;Drone strikes&quot;  udviklet sig gennem tiden?</h3>
-                            <img src="http://localhost:3000/assets/Dronestatesti.png" alt="" />
+                            <Image
+                                src="assets/Dronestatesti.png"
+                                className={style.mainImage}
+                                alt="Statestik"
+                            />
                             <h4>Her ser du en statestik over mennesker dræbt i Pakistan i tidsperioden 2004 til 2013 af CIA.</h4>
                         </div>
                 </div>

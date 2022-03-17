@@ -1,5 +1,6 @@
 import Navbar from "./components/navabr";
 import style from './../styles/modules/page1.module.scss'
+import Image from "next/image";
 
 
 export default function Page1() {
@@ -17,7 +18,13 @@ export default function Page1() {
                         <h1>Hvilke typer droner findes der?</h1>
                         <h4>I Danmark har vi ikke Unmanned combat aerial vehicle (UCAV)</h4>
                     </div>
-                   <img src="http://localhost:3000/assets/UCAV.jpeg" alt="" /><br />
+                        <Image
+                            className={style.mainImage}
+                            src="/assets/UCAV.jpeg"
+                            alt="UACV"
+                            width="100"
+                            height="40%"
+                        />    <br />
                        <label className={style.imgLabel}>Foto af Unmanned combat aerial vehicle</label>
                         <br />
                         <h3>Det danske forsvar har ikke sine egne militære droner</h3>
