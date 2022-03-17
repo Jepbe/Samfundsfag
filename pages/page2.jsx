@@ -21,13 +21,13 @@ export default function Page1() {
                        <label className={style.imgLabel}>Foto af Unmanned combat aerial vehicle</label>
                         <br />
                         <h3>Det danske forsvar har ikke sine egne militære droner</h3>
-                        <p>Man har i forsvaret ikke valgt at få militære droner indu blandt andet fordi UAV'er:</p>
+                        <p>Man har i forsvaret ikke valgt at få militære droner indu blandt andet fordi UAVer:</p>
                        
-                            <li>"kan endnu ikke erstatte bredt anvendelige bemandede systemer som fx jagerfly"</li>
-                            <li>"har, i kraft af eksisterende regulering, begrænset anvendelse civilt luftrum"</li>
-                            <li>"er sårbare i omstridt luftrum"</li>
-                            <li>"er dyre og mandskabsintensive"</li>
-                            <li>"er stadig mere upålidelige end bemandede platforme"</li>
+                            <li>&quot;kan endnu ikke erstatte bredt anvendelige bemandede systemer som fx jagerfly&quot;</li>
+                            <li>&quot;har, i kraft af eksisterende regulering, begrænset anvendelse civilt luftrum&quot;</li>
+                            <li>&quot;er sårbare i omstridt luftrum&quot;</li>
+                            <li>&quot;er dyre og mandskabsintensive&quot;</li>
+                            <li>&quot;er stadig mere upålidelige end bemandede platforme&quot;</li>
 
                             <br />
                             <br />
