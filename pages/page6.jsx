@@ -23,7 +23,7 @@ export default function Page1() {
                         <br /><br /><br /><br /><br /><br />
                             <h3>Hvordan har mængden af "Drone strikes" udviklet sig gennem tiden?</h3>
                             <img src="http://localhost:3000/assets/Dronestatesti.png" alt="" />
-                            <h4>Her ser du en statestik over mennesker dræbt i Pakistan i tidsperioden 2004 til 2013 af CIA</h4>
+                            <h4>Her ser du en statestik over mennesker dræbt i Pakistan i tidsperioden 2004 til 2013 af CIA.</h4>
                         </div>
                 </div>
             </div>
