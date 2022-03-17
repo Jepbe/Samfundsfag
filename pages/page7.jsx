@@ -1,4 +1,4 @@
-import Navbar from "/components/navabr";
+import Navbar from "components/navabr";
 import style from '/../styles/modules/page1.module.scss'
 
 

@@ -17,7 +17,7 @@ export default function Navbar() {
             {/* <h1>LOGO</h1> */}
             <Image
                 src="/assets/DRONER_I_KRIG_logo.png"
-                 alt="Droner i krig logo" 
+                alt="Droner i krig logo" 
                 className={style.Logo}
                 height="100"
                 width="165"
